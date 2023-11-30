@@ -482,6 +482,19 @@ h3{
 .faq input[type="checkbox"]:checked ~ .ans{
     max-height: 100vh;
 }
+.faq input[type="checkbox"]:checked ~ .icon1{
+    display: none;
+}
+.faq input[type="checkbox"]:checked ~ .icon2{
+    display: inline;
+}
+.icon1{
+    font-size: 30px;
+}
+.icon2{
+    display: none;
+    font-size: 30px;
+}
 .main-nav ul.faq li{
     display: flex;
     align-items: center;
