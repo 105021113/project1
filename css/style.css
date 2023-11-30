@@ -39,6 +39,12 @@ h1{
     font-weight: bold;
     left: 11%;
 }
+h2{
+    color: #241353;
+}
+h3{
+    color: #241353;
+}
 header{
     position: relative;
 }
@@ -161,6 +167,24 @@ h2{
     align-items: center;
     margin-bottom: 100px;
     
+}
+.fbsend{
+    font-size: 24px;
+    width: 150px ;
+    height: 50px;
+    border: 1px solid black;
+    color: #000;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fbsend:hover{
+    background-color: #000;
+    color: #fff;
 }
 .morepiece:hover{
     background-color: #000;
@@ -393,6 +417,7 @@ h3{
 }
 .newsword{
     font-weight: bold;
+    color: #241353;
 }
 .newsnav{
     margin-bottom: 0;
@@ -467,7 +492,7 @@ h3{
     border: #000 solid 1px;
     
     padding: 30px;
-    padding-bottom: 100px;
+    
     margin-bottom: 100px;
     
 }
