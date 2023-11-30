@@ -306,6 +306,29 @@ h3{
 .qq{
     margin-left: 1.5em;
 }
+.card-text span{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #fff;
+}
+.card-text span:hover{
+    color: white;
+    background-color: #000;
+}
+.meet:hover{
+    color: white;
+    background-color: #000;
+    
+}
+.meet{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #fff;
+}
 .comment .card-body{
     flex-direction: column;
 }
