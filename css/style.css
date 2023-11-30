@@ -489,11 +489,12 @@ h3{
     display: inline;
 }
 .icon1{
-    font-size: 30px;
+    font-size: 24px;
 }
 .icon2{
+    font-size: 24px;
     display: none;
-    font-size: 30px;
+    
 }
 .main-nav ul.faq li{
     display: flex;
