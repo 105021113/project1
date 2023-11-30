@@ -225,8 +225,11 @@ footer{
 .innernav{
     margin-bottom: 250px;
 }
-.card-body{
-    width: 33%;
+
+.ccard{
+    box-shadow: 8px 8px 8px #0003 ;
+    overflow: hidden;
+    width: 95%; 
 }
 
 .photographer{
@@ -249,8 +252,13 @@ footer{
     letter-spacing: 0.15em;
     
 }
-.intro p{
-    
+.pp{
+    margin: auto;
+    margin-top: 1em; 
+
+}
+.pp img{
+    width: 100%;
 }
 h3{
     display: flex;
@@ -271,6 +279,9 @@ h3{
     margin-bottom: 50px;
     
 }
+.qq{
+    margin-left: 1.5em;
+}
 .comment .card-body{
     flex-direction: column;
 }
@@ -284,7 +295,10 @@ h3{
     line-height: 50px;
 }
 .ccard img{
-    width: 100%;
+    
+}
+.comment .row .comdiv .ccard{
+    box-shadow: none;
 }
 .comdiv{
     border: 1px solid black;
@@ -338,14 +352,14 @@ h3{
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .drow{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-left: 150px;
+    
     margin-top: 100px;
 }
 .cw{
@@ -355,7 +369,8 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 8px 8px 8px #0003 
+    width: 30%;
+    
     
 }
 
@@ -486,7 +501,7 @@ h3{
     box-shadow: 8px 8px 8px #0003 
 }
 .comdiv{
-    box-shadow: 0px 8px 8px #0003 
+    box-shadow: 8px 8px 8px #0003 
 }
 a{
     color: #000;
