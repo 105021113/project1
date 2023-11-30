@@ -2,6 +2,9 @@
 * {
     font-family: 'Noto Sans TC';
 }
+body{
+    font-family: 'Noto Sans TC';
+}
 
 .top{
     position: absolute;
@@ -216,6 +219,7 @@ footer{
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 .innernav{
     margin-bottom: 250px;
