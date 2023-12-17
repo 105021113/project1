@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>拍攝類型</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <script src="./JS/jquery-3.7.1.js"></script>
+    <script src="./JS/js.js"></script>
 </head>
 <body>
     <a href="#logo" class="gototop">
@@ -28,27 +31,67 @@
             </div>
         </nav>
     </header>
-    <div class="bodytype">
+    <ul class="type typeList">
+        <li class="card">
+            <a href="./sim.html">
+                <img src="./img/type/por.png">
+                <span>人像攝影</span>
+            </a>
+        </li>
+        <li class="card">
+            <a href="./sim.html">
+                <img src="./img/type/building.png">
+                <span>建築攝影</span>
+            </a>
+        </li>
+        <li class="card">
+            <a href="./sim.html">
+                <img src="./img/type/wed.png">
+                <span>婚紗攝影</span>
+            </a>
+        </li>
+        <li class="card">
+            <a href="./sim.html">
+                <img src="./img/type/view.png">
+                <span>風景攝影</span>
+            </a>
+        </li>
+        <li class="card">
+            <a href="./sim.html">
+                <img src="./img/type/product.png">
+                <span>商品攝影</span>
+            </a>
+        </li>
+        <li class="card">
+            <a href="./sim.html">
+                <img src="./img/type/wild.png">
+                <span>生態攝影</span>
+            </a>
+        </li>
+    </ul>
+    <button class="more moretype">更多類型</button>
+    
+    <!-- <div class="bodytype">
         
         <div class="cardpic col-12 col-md-4" >
             <div class="type">人像攝影</div>
-            <a href="sim.html"><img src="./img/type/28ddc2201c9daa34ad83c3741e0a6544 (1).jpg" class="card-img-top" ></a>
+            <a href="sim.html"><img src="./img/type/por.png" class="card-img-top" ></a>
             
             
         </div>
         <div class="cardpic col-12 col-md-4" >
             <div class="type">建築攝影</div>
-            <img src="./img/type/2bc37b11a77acdf8b79b6672025d4651.jpg" class="card-img-top" >
+            <img src="./img/type/building.png" class="card-img-top" >
             
         </div>
         <div class="cardpic col-12 col-md-4" >
             <div class="type">婚紗攝影</div>
-            <img src="./img/type/3c1bc245a615d1c81d9a795aedfddd6e.jpg" class="card-img-top" >
+            <img src="./img/type/wed.png" class="card-img-top" >
             
         </div>
         <div class="cardpic col-12 col-md-4" >
             <div class="type">風景攝影</div>
-            <img src="./img/type/80241bfa1b4443a2684b9c9cc62094b1.jpg" class="card-img-top" >
+            <img src="./img/type/view.png" class="card-img-top" >
         </div>
         <div class="cardpic col-12 col-md-4" >
             <div class="type">商品攝影</div>
@@ -59,44 +102,29 @@
             <img src="./img/type/wild.png" class="card-img-top" >
         </div>
         
-    </div>
+    </div> -->
 
     <footer>
-        <img src="./img/footer.png" alt="footer" class="footerImg">
-        <div class="foot">
-            <div><a href="./news.html">最新消息</a></div>
-            <div><a href="./about.html">關於我們</a></div>
-            <div><a href="./faq.html">常見問題</a></div>
-            <div><a href="./feedback.html">意見回饋</a></div>
+        <img src="./img/footer.png" alt="footer" class="fimg">
+        <div class="bot">
+            <a href="./news.html">最新消息</a>
+            <a href="./about.html">關於我們</a>
+            <a href="./faq.html">常見問題</a>
+            <a href="./feedback.html">意見回饋</a>
         </div>
         <div class="follow">
-            <span class="followus">追蹤我們</span>
-            <div class="account">
-                <div>
-                    <a href="">
-                        <img src="./img/follow/fb.png" alt="">
-                        <span>best_photographer</span>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="./img/follow/ig.png" alt="">
-                        <span>best_photographer</span>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="./img/follow/x.png" alt="">
-                        <span>best_photographer</span>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="./img/follow/yt.png" alt="">
-                        <span>best_photographer</span>
-                    </a>
-                </div>
-            </div>
+            <a href="">
+                <img src="./img/follow/fb.png" alt="">
+            </a>
+            <a href="">
+                <img src="./img/follow/ig.png" alt="">
+            </a>
+            <a href="">
+                <img src="./img/follow/x.png" alt="">
+            </a>
+            <a href="">
+                <img src="./img/follow/yt.png" alt="">
+            </a>
         </div>
     </footer>
 </body>

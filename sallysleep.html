@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>sleep</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <script src="./JS/jquery-3.7.1.js"></script>
+    <script src="./JS/js.js"></script>
 </head>
 <body>
     <a href="#logo" class="gototop">
@@ -28,8 +31,19 @@
             </div>
         </nav>
     </header>
-    
+
     <div class="photographer">
+        <div class="card pps" >
+            <div class="pr">
+                <img src="./img/Sally/fae6a723d99153feb25b013647a963f8.jpg" >
+            </div>
+            
+                <p class="card-text intro">作品名稱 : Sleep<br>作者 : Sally<br>創作日期 : 2022.08.11<br>簡介 : :沉睡在自己的夢境中，身處於一片靜謐而迷幻的黑暗。這是一種麻木的狀態，彷彿自己成了沉默的幽靈。在這個沉睡的狀態中，我發現了我內心深處的聲音，那是一種不斷詢問、追問的聲音，彷彿在問我，我是誰，又是為了什麼而存在。
+                    這沉睡不僅僅是身體的休息，更是心靈的沉思。在夢中，我走過無數次幻境，每一個都是一段隱藏在心靈深處的故事。這些故事或許是快樂的回憶，或是那些令人心碎的片段，但它們都是我成長的一部分。<br><a class="know" href="./sally.html">認識作者</a></p>
+            
+        </div>
+    
+    <!-- <div class="photographer">
         <div class="card index" >
             <div class=" col-12 col-md-6 ">
                 <img src="./img/Sally/fae6a723d99153feb25b013647a963f8.jpg" >
@@ -45,43 +59,34 @@
         </div>
         
         
-    </div>
-    <div class="detail">
-        <div class="drow">
-            <div class="cw ">
-                <div class="circleword">拍攝<br>地點</div>
-                <div class="ccard" >
-                    <img src="./img/Emily/look/tp.png" class="card-img-top qq" >
-                    <div class="card-bodyy">
-                        <p class="dtext">台北，台灣首都，現代都市與傳統文化共融之地。高樓大廈林立，夜市小吃香氣四溢。文創藝術盛行，故宮博物院珍藏中華文物。綠意公園和歷史建築交相輝映，展現多元風貌。</p>
-                    </div>
-                </div>
-            </div>  
-            <div class="cw">
-                <div class="circleword">人物<br>介紹</div>
-                <div class="ccard" >
-                    <img src="./img/Emily/look/md.png" class="card-img-top qq" >
-                    <div class="card-bodyy">
-                        <p class="dtext">我是風格多變的模特兒，展現自信優雅。經驗豐富，適應各種風格和主題。熱愛時尚，具有獨特魅力。專業態度，追求攝影藝術的最佳表現。不害怕與人交際樂於認識攝影師</p>
-                    </div>
-                </div>
-            </div>
-            <div class="cw">
-                <div class="circleword">拍攝<br>設備</div>
-                <div class="ccard" >
-                    <img src="./img/Emily/look/eq.png" class="card-img-top qq" >
-                    <div class="card-bodyy">
-                        <p class="dtext">相機:富士 X-T4<br>
+    </div> -->
+    <ul class="details">
+        <li class="card detailsC" >
+            <div class="circle">拍攝地點</div>
+            <img src="./img/Emily/look/tp.png" >
+            <p class="card-text ww">
+                台北，台灣首都，現代都市與傳統文化共融之地。高樓大廈林立，夜市小吃香氣四溢。文創藝術盛行，故宮博物院珍藏中華文物。綠意公園和歷史建築交相輝映，展現多元風貌。
+            </p>
+        </li>
+        <li class="card detailsC" >
+            <div class="circle">人物介紹</div>
+            <img src="./img/Emily/look/md.png" >
+            <p class="card-text ww">
+                我是風格多變的模特兒，展現我的自信優雅。經驗豐富，適應各種風格和主題。熱愛時尚，具有獨特魅力。專業態度，追求攝影藝術的最佳表現。不害怕與人交際樂於認識攝影師
+            </p>
+        </li>
+        <li class="card detailsC" >
+            <div class="circle">拍攝設備</div>
+            <img src="./img/Emily/look/eq.png" >
+            <p class="card-text ww">
+                相機:富士 X-T4<br>
                             鏡頭:富士 XF 35mm f/1.4 R<br>
                             記憶卡:CFast 卡<br>
                             腳架:Ulanzi Zero F38<br>
-                            
-                            </p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+            </p>
+        </li>
+
+    </ul>
  
 
         <h3>作者其他作品</h3>
@@ -94,7 +99,7 @@
                 <img src="./img/Sally/a80c00db40f1f50fa6e1ca9458c1ba1f.jpg" class="card-img-top" >
             </div>
         </div>
-        <div class="morepiece morepicc dmore">更多作品</div>
+        <div class="more">更多作品</div>
 
         <h3 class="ptype">類似風格的作品</h3>
         <div class="morepic">
@@ -106,45 +111,30 @@
                 <img src="./img/Emily/0f0b97f8a8ef0b737026ec36db6c9edc.jpg" class="card-img-top" >
             </div>
         </div>
-        <a href="sim.html"><div class="morepiece morepicc dmore">更多作品</div></a>
+        <a href="sim.html"><div class="more">更多作品</div></a>
         
     </div>
     <footer>
-        <img src="./img/footer.png" alt="footer" class="footerImg">
-        <div class="foot">
-            <div><a href="news.html">最新消息</a></div>
-            <div><a href="./about.html">關於我們</a></div>
-            <div><a href="./faq.html">常見問題</a></div>
-            <div><a href="./feedback.html">意見回饋</a></div>
+        <img src="./img/footer.png" alt="footer" class="fimg">
+        <div class="bot">
+            <a href="./news.html">最新消息</a>
+            <a href="./about.html">關於我們</a>
+            <a href="./faq.html">常見問題</a>
+            <a href="./feedback.html">意見回饋</a>
         </div>
         <div class="follow">
-            <span class="followus">追蹤我們</span>
-            <div class="account">
-                <div>
-                    <a href="">
-                        <img src="./img/follow/fb.png" alt="">
-                        <span>best_photographer</span>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="./img/follow/ig.png" alt="">
-                        <span>best_photographer</span>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="./img/follow/x.png" alt="">
-                        <span>best_photographer</span>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="./img/follow/yt.png" alt="">
-                        <span>best_photographer</span>
-                    </a>
-                </div>
-            </div>
+            <a href="">
+                <img src="./img/follow/fb.png" alt="">
+            </a>
+            <a href="">
+                <img src="./img/follow/ig.png" alt="">
+            </a>
+            <a href="">
+                <img src="./img/follow/x.png" alt="">
+            </a>
+            <a href="">
+                <img src="./img/follow/yt.png" alt="">
+            </a>
         </div>
     </footer>
 </body>
