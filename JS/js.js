@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
     $('.moretype').click(function(){
             $('.typeList').append(`
             <li class="card">
@@ -61,6 +61,8 @@ $(function(){
                 </p>
             </li> 
         `)
-    
-})
+    })
+    $('#ham').click(function(){
+        $('.menu').toggleClass('hidden')
+    })
 })
