@@ -697,4 +697,7 @@ footer{
     h1{
         top: 40%;
     }
+    .card-text{
+        letter-spacing: 0.1em;
+    }
 }
