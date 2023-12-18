@@ -85,6 +85,7 @@ a img{
     font-size: 30px;
     font-weight: bold;
     margin: 2%;
+    color: #241353;
 }
 .totop{
     display: flex;
@@ -753,6 +754,16 @@ a{
         font-size: 24px;
     }
     .style{
+        display: flex;
+        box-sizing: border-box;
+        position: absolute;
+        border-radius: 50%;
+        background-color: rgba(229, 255, 188, 1);
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin: 2%;
+        color: #241353;
         width: 80px;
         height: 80px;
         padding: 10px;

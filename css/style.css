@@ -628,6 +628,7 @@ footer{
     .style{
         width: 80px;
         height: 80px;
+        padding: 10px;
         font-size: 20px;
     }
     .bot{
@@ -640,8 +641,8 @@ footer{
         display: block;
         width: 50px;
         height: 25px;
-        border: 1px solid black;
-        border-radius: 6px;
+        background-color: transparent;
+        border: 0;
         text-align: center;
         position: absolute;
         right: 0;
@@ -650,13 +651,18 @@ footer{
     }
     .menu{
         position: absolute;
-        right: 20px;
+        left: 0;
         top: 50px;
-        background-color: #fff;
+        background-color: rgba(229, 255, 188, 1);
         color: #000;
+        width: 100%;
+        z-index: 1;
+
+
     }
-    .menu div{
-        margin: 6px;
+    .menu a div{
+        margin: 15px;
+        width: calc(100%-15px);
     }
     .hidden{
         display: none;
@@ -700,34 +706,38 @@ footer{
     .card-text{
         letter-spacing: 0;
     }
-    .ham{
-        display: block;
-        width: 50px;
-        height: 25px;
-        background-color: transparent;
-        border: 0;
-        text-align: center;
-        position: absolute;
-        right: 0;
-        top: 0;
-        margin: 20px;
-    }
-    .menu{
-        position: absolute;
-        left: 0;
-        top: 50px;
-        background-color: rgba(229, 255, 188, 1);
-        color: #000;
+    .selectBox{
         width: 100%;
-        z-index: 1;
-
-
+        height: 40%;
+        z-index: 2;
+        position: fixed;
+        left: 0;
+        top: 30%;
+        background-color: rgba(229, 255, 188, 1);
     }
-    .menu a div{
-        margin: 15px;
-        width: calc(100%-15px);
+    .selectBox input{
+        width: 80%;
+        height: 8%;
+        font-size: 16px;
+        margin-top: 5%;
+        
+    
     }
-    .hidden{
-        display: none;
+    #feedback{
+        margin-left: 8%;
+        margin-top: 3%;
+        line-height: 1.3em;
+    }
+    .close{
+        margin-left: 45%;
+        margin-top: 5%;
+    }
+    .line{
+        border-bottom: 2px solid black;
+        width: 90%;
+        margin: 15%;
+    }
+    .feedback{
+        width: 70%;
     }
 }
