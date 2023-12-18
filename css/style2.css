@@ -765,8 +765,8 @@ a{
         display: block;
         width: 50px;
         height: 25px;
-        border: 1px solid black;
-        border-radius: 6px;
+        background-color: transparent;
+        border: 0;
         text-align: center;
         position: absolute;
         right: 0;
@@ -777,11 +777,12 @@ a{
         position: absolute;
         right: 20px;
         top: 50px;
-        background-color: #fff;
+        background-color: rgba(229, 255, 188, 1);
         color: #000;
+
     }
     .menu div{
-        margin: 6px;
+        margin: 15px;
     }
     .hidden{
         display: none;
@@ -837,7 +838,7 @@ a{
     .selectBox input{
         width: 80%;
         height: 8%;
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 5%;
         
     
@@ -850,5 +851,10 @@ a{
     .close{
         margin-left: 45%;
         margin-top: 5%;
+    }
+    .line{
+        border-bottom: 2px solid black;
+        width: 90%;
+        margin: 15%;
     }
 }
