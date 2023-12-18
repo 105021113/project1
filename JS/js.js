@@ -65,4 +65,74 @@ $(document).ready(function(){
     $('#ham').click(function(){
         $('.menu').toggleClass('hidden')
     })
+
+
+    let user = [
+                {"id": '人像攝影師',"name":"Andy","age":'3年'},
+                {"id": '人像攝影師',"name":"Brian","age":'2年'},
+                {"id": '人像攝影師',"name":"Carl","age":'2年'},
+                {"id": '商品攝影師',"name":"Dale","age":'1年'},
+                {"id": '商品攝影師',"name":"Eric","age":'5年'},
+                {"id": '人像攝影師',"name":"Frank","age":'2年'},
+                {"id": '商品攝影師',"name":"Gina","age":'2年'},
+                {"id": '商品攝影師',"name":"Helen","age":'6年'},
+                {"id": '商品攝影師',"name":"Irene","age":'5年'},
+                {"id": '商品攝影師',"name":"Jess","age":'2年'},
+                {"id": '婚禮攝影師',"name":"Kevin","age":'2年'},
+                {"id": '人像攝影師',"name":"Lisa","age":'7年'},
+                {"id": '人像攝影師',"name":"Maria","age":'2年'},
+                {"id": '婚禮攝影師',"name":"Nancy","age":'2年'},
+                {"id": '人像攝影師',"name":"Olivia","age":'10年'},
+                {"id": '人像攝影師',"name":"Peter","age":'3年'},
+                {"id": '婚禮攝影師',"name":"Qreen","age":'2年'},
+                {"id": '婚禮攝影師',"name":"Rose","age":'5年'},
+                {"id": '婚禮攝影師',"name":"Sally","age":'2年'},
+                {"id": '婚禮攝影師',"name":"Tina","age":'2年'},
+            ]
+            
+            $(function(){
+                
+                $('#search').keyup(function(){
+                    
+                    let searchText = $(this).val()
+                    
+                    if(searchText!=''){
+                        let tableData = `<table width="300" border="1"cellspacing='0' cellpadding='1'>
+                            <tr align = "center">
+                                <td>攝影類型</td> 
+                                <td>姓名</td> 
+                                <td>資歷</td>    
+                            </tr>
+                        `
+                        $.each(user,function(id,item){
+                            if(item.name.indexOf(searchText)!=-1||item.age.indexOf(searchText)!=-1||item.id.indexOf(searchText)!=-1){
+                                tableData +=
+                                `<tr align = "center">
+                                    <td>${item.id}</td> 
+                                    <td>${item.name}</td> 
+                                    <td>${item.age}</td>    
+                                </tr>`
+                            }
+                            
+                        })
+
+                        tableData += `</table>`
+                        $('#feedback').html(tableData)
+                    }else{
+                        $('#feedback').html('')
+                    }
+                })
+            })
+            $('.style').click(function(){
+                $('.selectBox').toggleClass('hidden')
+            })
+            // document.addEventListener('click',function(){
+            //     if($(this)!=$('.selectBox')){
+            //         $('.selectBox').addClass('hidden')
+            //     }
+            // },false)
+            $('.close').click(function(){
+                $('.selectBox').addClass('hidden')
+            })
+
 })
