@@ -797,6 +797,6 @@ a{
         top: 40%;
     }
     .card-text{
-        letter-spacing: 0.1em;
+        letter-spacing: 0;
     }
 }
