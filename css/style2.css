@@ -73,8 +73,10 @@ a img{
 }
 .style{
     display: flex;
+    box-sizing: border-box;
     height: 160px;
     width: 160px;
+    padding: 40px;
     position: absolute;
     border-radius: 50%;
     background-color: rgba(229, 255, 188, 1);
@@ -753,6 +755,7 @@ a{
     .style{
         width: 80px;
         height: 80px;
+        padding: 10px;
         font-size: 20px;
     }
     .bot{
@@ -861,4 +864,5 @@ a{
         width: 90%;
         margin: 15%;
     }
+    
 }
